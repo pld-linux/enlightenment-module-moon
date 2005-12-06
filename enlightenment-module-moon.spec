@@ -1,7 +1,7 @@
-#
 %define		_module_name	moon
 
-Summary:	Enlightenment DR17 module: %{_module_name}
+Summary:	Enlightenment DR17 module: Moon
+Summary(pl):	Modu³ Enlightenmenta DR17: Moon
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.2
 Release:	1
@@ -16,7 +16,10 @@ Requires:	enlightenmentDR17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment DR17 module showing actual phase of the moon.
+Enlightenment DR17 module showing current phase of the Moon.
+
+%description -l pl
+Modu³ Enlightenmenta DR17 pokazuj±cy aktualn± fazê Ksiê¿yca.
 
 %prep
 %setup -q -n %{_module_name}-%{version}
