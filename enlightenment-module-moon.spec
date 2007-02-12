@@ -1,7 +1,7 @@
 %define		_module_name	moon
 
 Summary:	Enlightenment DR17 module: Moon
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: Moon
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: Moon
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.2
 Release:	1
