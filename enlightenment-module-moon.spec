@@ -13,9 +13,9 @@ URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	edje
-BuildRequires:	enlightenmentDR17-devel
+BuildRequires:	enlightenment-devel
 BuildRequires:	libtool
-Requires:	enlightenmentDR17
+Requires:	enlightenment
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
